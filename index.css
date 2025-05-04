@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #3498db;
+    --primary-color-hover: #2980b9;
+    --secondary-color: #e74c3c;
+    --highlight-color: #f1c40f;
+    --text-color: #333;
+    --background-color: #f0f0f0;
+    --background-darker-color: #888;
+    --font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+}
+
+/* ============= */
+/* Global Styles */
+/* ============= */
+
+.blue-text {
+    color: var(--primary-color);
+}
+
+.red-text {
+    color: var(--secondary-color);
+}
+
+.highlight-text {
+    background-color: var(--highlight-color);
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.background-darker {
+    background-color: var(--background-color);
+}
+
+.background-white {
+    background-color: white;
+}
+
+/* ============= */
+/* Intro Section */
+/* ============= */
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.intro__header {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 90vw;
+}
+
+.intro__text {
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 90vw;
+    margin-bottom: 30px;
+}
+
+/* ====================== */
+/* Image Collages Section */
+/* ====================== */
+
+.image-collage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 0 50px;
+}
+
+.image-collage__image {
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.large-image-collage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 0 50px;
+}
+
+.large-image-collage__image {
+    width: 40rem;
+    max-width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.largest-image-collage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 0 50px;
+}
+
+.largest-image-collage__image {
+    width: 75rem;
+    max-width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    border-radius: 10px;
+}
+
+/* =================== */
+/* Text Blocks Section */
+/* =================== */
+
+.text-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 0 50px;
+    margin: 0;
+}
+
+.text-block__header {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 70rem;
+    max-width: 90vw;
+}
+
+.text-block__text {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 60rem;
+    max-width: 90vw;
+}
+
+.text-block__text-wide {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 70rem;
+    max-width: 90vw;
+}
+
+.text-block__link {
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 90vw;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.text-block__link:hover {
+    color: var(--primary-color-hover);
+}
+
+/* ============= */
+/* Video Section */
+/* ============= */
+
+.video-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 0 50px;
+}
+
+.video-block__text {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 60rem;
+    max-width: 90vw;
+}
+
+.video-block__video {
+    width: 80rem;
+    max-width: 95vw;
+    height: auto;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+} 
+
+/* ====================== */
+/* Contact Footer Section */
+/* ====================== */
+
+.contact-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 0 50px;
+}
+
+.contact-footer__header {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 70rem;
+    max-width: 90vw;
+}
+
+.contact-footer__text {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 60rem;
+    max-width: 90vw;
+}
