@@ -95,6 +95,25 @@ body {
     width: 3rem;
 }
 
+/* To prevent intro text from overflowing to the next section on smaller screens */
+@media (max-height: 30rem) {
+    .intro-bottom__text {
+        display: none;
+    }
+}
+
+@media (max-height: 25rem) {
+    .intro-bottom__icon {
+        display: none;
+    }
+}
+
+@media (max-height: 15rem) {
+    .intro__text {
+        display: none;
+    }
+}
+
 /* ====================== */
 /* Image Collages Section */
 /* ====================== */
