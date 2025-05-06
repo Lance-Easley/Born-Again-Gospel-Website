@@ -96,7 +96,7 @@ body {
 }
 
 /* To prevent intro text from overflowing to the next section on smaller screens */
-@media (max-height: 30rem) {
+@media (max-height: 33rem) {
     .intro-bottom__text {
         display: none;
     }
