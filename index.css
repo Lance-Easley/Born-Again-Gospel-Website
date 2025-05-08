@@ -19,6 +19,10 @@ body {
     line-height: 1.6;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* ============= */
 /* Global Styles */
 /* ============= */
@@ -284,4 +288,36 @@ body {
     height: auto;
     aspect-ratio: 16/9;
     border-radius: 10px;
-} 
+}
+
+/* =================== */
+/* Image optimizations */
+/* =================== */
+
+.image-collage__image,
+.large-image-collage__image,
+.largest-image-collage__image {
+    transition: transform 0.3s ease;
+}
+
+/* Improved responsive design */
+@media (max-width: 768px) {
+    .text-block-split__header {
+        font-size: 5rem;
+        line-height: 5rem;
+        margin: 0;
+    }
+
+    .text-block__text,
+    .text-block__text-wide,
+    .text-block__link,
+    .text-block-split__text,
+    .video-block__text {
+        font-size: 1.2rem;
+    }
+    
+    .intro__text,
+    .intro-bottom__text {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Born Again Ministries",
+    "short_name": "BAM",
+    "description": "Learn what it truly means to be Born Again according to the Bible",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f0f0f0",
+    "theme_color": "#3498db"
+}
