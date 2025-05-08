@@ -233,6 +233,31 @@ body {
     margin: 20px 0;
 }
 
+.text-block-split {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 60rem;
+    max-width: 90vw;
+    height: fit-content;
+}
+
+.text-block-split__header {
+    font-size: 8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 0 1rem;
+    line-height: 8rem;
+}
+
+.text-block-split__text {
+    font-size: 1.5rem;
+    text-align: center;
+    height: fit-content;
+    margin: 0 1rem;
+}
+
 /* ============= */
 /* Video Section */
 /* ============= */
@@ -260,31 +285,3 @@ body {
     aspect-ratio: 16/9;
     border-radius: 10px;
 } 
-
-/* ====================== */
-/* Contact Footer Section */
-/* ====================== */
-
-.contact-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    padding: 50px 0 50px;
-}
-
-.contact-footer__header {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 70rem;
-    max-width: 90vw;
-}
-
-.contact-footer__text {
-    font-size: 1.5rem;
-    text-align: center;
-    width: 60rem;
-    max-width: 90vw;
-}
