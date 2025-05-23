@@ -43,6 +43,14 @@ html {
     font-weight: bold;
 }
 
+.underline-text {
+    text-decoration: underline;
+}
+
+.no-wrap-text {
+    white-space: nowrap;
+}
+
 .background-darker {
     background-color: var(--background-color);
 }
@@ -71,7 +79,14 @@ html {
 
 .intro__header {
     font-size: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    max-width: 90vw;
+}
+
+.intro__header_2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
     max-width: 90vw;
 }
@@ -227,6 +242,7 @@ html {
     max-width: 90vw;
     color: var(--primary-color);
     text-decoration: underline;
+    white-space: nowrap;
 }
 
 .text-block__link:hover {
