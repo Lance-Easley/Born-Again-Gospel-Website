@@ -138,8 +138,8 @@ html {
 }
 
 @media (max-height: 25rem) {
-    .intro__text {
-        display: none;
+    .intro {
+        height: 25rem;
     }
 }
 
