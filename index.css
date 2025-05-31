@@ -129,17 +129,9 @@ html {
     .intro-bottom__icon {
         display: none;
     }
-}
 
-@media (max-height: 32rem) {
-    .intro__disappear {
-        display: none;
-    }
-}
-
-@media (max-height: 25rem) {
     .intro {
-        height: 25rem;
+        height: 35rem;
     }
 }
 
