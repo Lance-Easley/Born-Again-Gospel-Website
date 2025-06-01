@@ -119,19 +119,27 @@ html {
 }
 
 /* To prevent intro text from overflowing to the next section on smaller screens */
-@media (max-height: 47rem) {
+@media ((max-height: 47rem) and (max-width: 35rem)), (max-width: 25rem), (max-height: 45rem) {
     .intro__spacer {
         height: auto;
     }
+
+    .intro__header_2 {
+        margin-top: 2rem;
+    }
+
+    .intro-bottom__text {
+        margin-bottom: 2rem;
+    }
 }
 
-@media (max-height: 40rem) {
+@media ((max-height: 40rem) and (max-width: 29.5rem)), (max-width: 25rem), (max-height: 45rem) {
     .intro-bottom__icon {
         display: none;
     }
 
     .intro {
-        height: 35rem;
+        height: auto;
     }
 }
 
@@ -340,7 +348,7 @@ html {
 }
 
 /* Improved responsive design */
-@media (max-width: 768px) {
+@media (max-width: 768px), (max-height: 600px) {
     .text-block-split__header {
         font-size: 5rem;
         line-height: 5rem;
