@@ -59,6 +59,10 @@ html {
     background-color: white;
 }
 
+.large-text {
+    font-size: 2rem !important;
+}
+
 /* ============= */
 /* Intro Section */
 /* ============= */
