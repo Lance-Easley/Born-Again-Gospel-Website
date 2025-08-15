@@ -371,4 +371,8 @@ html {
     .intro-bottom__text {
         font-size: 1.2rem;
     }
+
+    .large-text {
+        font-size: 1.2rem !important;
+    }
 }
