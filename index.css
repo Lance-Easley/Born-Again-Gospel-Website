@@ -123,7 +123,7 @@ html {
 }
 
 /* To prevent intro text from overflowing to the next section on smaller screens */
-@media screen and ((max-width: 30rem) or (max-height: 55rem)) {
+@media screen and ((max-width: 25rem) or (max-height: 45rem)) {
     .intro__spacer {
         height: auto;
     }
@@ -133,7 +133,7 @@ html {
     }
 }
 
-@media screen and ((max-width: 28rem) or (max-height: 45rem)) and ((max-width: 70rem) or (max-height: 30rem)) {
+@media screen and ((max-width: 19.9rem) or (max-height: 35.5rem)) and ((max-width: 70rem) or (max-height: 30rem)) {
     .intro-bottom__icon {
         display: none;
     }
